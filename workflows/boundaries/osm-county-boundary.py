@@ -1,8 +1,5 @@
 """
 Downloads the county boundaries from Open Street Map using the OSMNX python library.
-
-NB: an attempt was done at using pyrosm, which would be significantly faster. However,
-the boundaries returned are broken due to a bug in pyrosm
 """
 from glob import glob
 from typing import List, Literal

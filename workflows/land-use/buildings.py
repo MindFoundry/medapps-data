@@ -37,7 +37,6 @@ def main():
 
     buildings_map = map(_extract_roads_single, file_paths)
 
-    # out_df = gpd.GeoDataFrame()
     index_set: set = set()
 
     for idx, buildings_gdf in enumerate(tqdm(buildings_map)):
@@ -54,13 +53,6 @@ def main():
             buildings_gdf.to_file("buildings.gpkg", driver="GPKG")
         else:
             buildings_gdf.to_file("buildings.gpkg", driver="GPKG", mode="a")
-
-        # if idx == 0:
-        #     out_df = buildings_gdf
-        # else:
-        #     out_df = pd.concat([out_df, buildings_gdf])
-        #     assert isinstance(out_df, gpd.GeoDataFrame)
-        #     out_df = out_df.drop_duplicates(subset="gml_id")
 
 
 if __name__ == "__main__":
