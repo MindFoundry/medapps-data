@@ -1,0 +1,36 @@
+osmid,name,admin_level,boundary,type
+R1900654,Aberdeen City,6,administrative,boundary
+R1900655,Aberdeenshire,6,administrative,boundary
+R1921172,Angus,6,administrative,boundary
+R1775685,Argyll and Bute,6,administrative,boundary
+R1920901,City of Edinburgh,6,administrative,boundary
+R1920841,Clackmannanshire,6,administrative,boundary
+R88065,Cumbria,6,administrative,boundary
+R1877232,Dumfries and Galloway,6,administrative,boundary
+R1921173,Dundee City,6,administrative,boundary
+R1920348,East Ayrshire,6,administrative,boundary
+R1920660,East Dunbartonshire,6,administrative,boundary
+R1920902,East Lothian,6,administrative,boundary
+R1921238,East Renfrewshire,6,administrative,boundary
+R1920842,Falkirk,6,administrative,boundary
+R1905841,Fife,6,administrative,boundary
+R1906767,Glasgow City,6,administrative,boundary
+R1433249,Highland,6,administrative,boundary
+R1921239,Inverclyde,6,administrative,boundary
+R1920903,Midlothian,6,administrative,boundary
+R1775792,Moray,6,administrative,boundary
+R12659130,Muckle Roe,6,administrative,boundary
+R1959008,Na h-Eileanan Siar,6,administrative,boundary
+R1910014,North Ayrshire,6,administrative,boundary
+R1920584,North Lanarkshire,6,administrative,boundary
+R88066,Northumberland,6,administrative,boundary
+R375982,Orkney Islands,6,administrative,boundary
+R1915429,Perth and Kinross,6,administrative,boundary
+R1921240,Renfrewshire,6,administrative,boundary
+R1919950,Scottish Borders,6,administrative,boundary
+R1920349,South Ayrshire,6,administrative,boundary
+R1921241,South Lanarkshire,6,administrative,boundary
+R1905258,Stirling,6,administrative,boundary
+R13370324,Vementry,6,administrative,boundary
+R1920242,West Dunbartonshire,6,administrative,boundary
+R1910704,West Lothian,6,administrative,boundary

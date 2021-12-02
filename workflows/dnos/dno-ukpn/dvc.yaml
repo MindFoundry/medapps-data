@@ -1,0 +1,16 @@
+stages:
+  dno-upn-download-data:
+    cmd: bash dno-ukpn-download.sh
+    deps:
+      - dno-ukpn-download.sh
+    outs:
+      - grid-and-primary-sites.csv
+      - network-headroom.csv
+  dno-upn-process-data:
+    cmd: python dno-ukpn-substations.py grid-and-primary-sites.csv network-headroom.csv
+    deps:
+      - dno-ukpn-substations.py
+      - grid-and-primary-sites.csv
+      - network-headroom.csv
+    outs:
+      - ukpn-primary-substations.geojson

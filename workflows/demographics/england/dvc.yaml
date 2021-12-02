@@ -1,0 +1,14 @@
+stages:
+  england-imd-download:
+    cmd: bash england-imd-download.sh
+    deps:
+      - england-imd-download.sh
+    outs:
+      - england-imd/
+  england-imd:
+    cmd: python england-imd.py
+    deps:
+      - england-imd.py
+      - england-imd
+    outs:
+      - england-imd.geojson

@@ -1,0 +1,9 @@
+stages:
+  dno-wpd:
+    cmd: python dno-wpd-substations.py
+    deps:
+      - dno-wpd-substations.py
+      - resources/WPD-Network-Capacity-Map-19-11-2021.csv
+    outs:
+      - wpd-substation-data.geojson
+      - wpd-primary-substations.geojson

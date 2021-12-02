@@ -1,0 +1,7 @@
+stages:
+  lsoa-data-download:
+    cmd: bash lsoa-data-download.sh
+    deps:
+      - lsoa-data-download.sh
+    outs:
+      - lsoa-boundaries.geojson

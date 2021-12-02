@@ -1,0 +1,9 @@
+stages:
+  osm-county-boundary:
+    cmd: python osm-county-boundary.py
+    deps:
+      - osm-county-boundary.py
+      - static-src
+    outs:
+      - ceremonial-county-boundaries.geojson
+      - administrative-county-boundaries.geojson

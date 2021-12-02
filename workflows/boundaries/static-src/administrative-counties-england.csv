@@ -1,0 +1,98 @@
+osmid,name,admin_level,boundary,type
+R81941,Bath and North East Somerset,6,administrative,boundary
+R158396,Bedford,6,administrative,boundary
+R148780,Blackburn with Darwen,6,administrative,boundary
+R148603,Blackpool,6,administrative,boundary
+R9448448,"Bournemouth, Christchurch and Poole",6,administrative,boundary
+R113682,Bracknell Forest,6,administrative,boundary
+R114085,Brighton and Hove,6,administrative,boundary
+R10947197,Buckinghamshire,6,administrative,boundary
+R180837,Cambridgeshire,6,administrative,boundary
+R161643,Central Bedfordshire,6,administrative,boundary
+R153487,Cheshire East,6,administrative,boundary
+R153488,Cheshire West and Chester,6,administrative,boundary
+R57539,City of Bristol,6,administrative,boundary
+R162353,City of Leicester,6,administrative,boundary
+R51800,City of London,6,administrative,boundary
+R123292,City of Nottingham,6,administrative,boundary
+R161640,City of Peterborough,6,administrative,boundary
+R57537,Cornwall,6,administrative,boundary
+R88067,County Durham,6,administrative,boundary
+R88065,Cumbria,6,administrative,boundary
+R153377,Darlington,6,administrative,boundary
+R142308,Derby,6,administrative,boundary
+R195384,Derbyshire,6,administrative,boundary
+R190380,Devon,6,administrative,boundary
+R9448449,Dorset,6,administrative,boundary
+R1877232,Dumfries and Galloway,6,administrative,boundary
+R88083,East Riding of Yorkshire,6,administrative,boundary
+R92650,East Sussex,6,administrative,boundary
+R180904,Essex,6,administrative,boundary
+R198566,Flintshire,6,administrative,boundary
+R85103,Gloucestershire,6,administrative,boundary
+R88084,Greater Manchester,6,administrative,boundary
+R147284,Halton,6,administrative,boundary
+R172799,Hampshire,6,administrative,boundary
+R153375,Hartlepool,6,administrative,boundary
+R10187,Herefordshire,6,administrative,boundary
+R57032,Hertfordshire,6,administrative,boundary
+R154350,Isle of Wight,6,administrative,boundary
+R158039,Isles of Scilly,6,administrative,boundary
+R172385,Kent,6,administrative,boundary
+R60148,Kingston upon Hull,6,administrative,boundary
+R88081,Lancashire,6,administrative,boundary
+R189890,Leicestershire,6,administrative,boundary
+R78312,Lincolnshire,6,administrative,boundary
+R65606,London,6,administrative,boundary
+R158392,Luton,6,administrative,boundary
+R158019,Medway,6,administrative,boundary
+R147564,Merseyside,6,ceremonial,boundary
+R150988,Middlesbrough,6,administrative,boundary
+R172504,Milton Keynes,6,administrative,boundary
+R358021,Monmouthshire,6,administrative,boundary
+R57397,Norfolk,6,administrative,boundary
+R69361,North East Lincolnshire,6,administrative,boundary
+R107240,North Lincolnshire,6,administrative,boundary
+R10792352,North Northamptonshire,6,administrative,boundary
+R80277,North Somerset,6,administrative,boundary
+R88068,North Yorkshire,6,administrative,boundary
+R88066,Northumberland,6,administrative,boundary
+R181040,Nottinghamshire,6,administrative,boundary
+R76155,Oxfordshire,6,administrative,boundary
+R189924,Plymouth,6,administrative,boundary
+R127167,Portsmouth,6,administrative,boundary
+R134324,Powys,6,administrative,boundary
+R115074,Reading,6,administrative,boundary
+R150989,Redcar and Cleveland,6,administrative,boundary
+R57398,Rutland,6,administrative,boundary
+R1919950,Scottish Borders,6,administrative,boundary
+R167060,Shropshire,6,administrative,boundary
+R117097,Slough,6,administrative,boundary
+R72894,Somerset,6,administrative,boundary
+R82631,South Gloucestershire,6,administrative,boundary
+R88078,South Yorkshire,6,ceremonial,boundary
+R127864,Southampton,6,administrative,boundary
+R76489,Southend-on-Sea,6,administrative,boundary
+R195444,Staffordshire,6,administrative,boundary
+R150994,Stockton-on-Tees,6,administrative,boundary
+R163183,Stoke-on-Trent,6,administrative,boundary
+R28595,Suffolk,6,administrative,boundary
+R57582,Surrey,6,administrative,boundary
+R110212,Swindon,6,administrative,boundary
+R167058,Telford and Wrekin,6,administrative,boundary
+R76521,Thurrock,6,administrative,boundary
+R161649,Torbay,6,administrative,boundary
+R154376,Tyne and Wear,6,ceremonial,boundary
+R147278,Warrington,6,administrative,boundary
+R57516,Warwickshire,6,administrative,boundary
+R116938,West Berkshire,6,administrative,boundary
+R6965187,West Midlands Combined Authority,6,administrative,boundary
+R10792351,West Northamptonshire,6,administrative,boundary
+R113757,West Sussex,6,administrative,boundary
+R88079,West Yorkshire,6,administrative,boundary
+R57533,Wiltshire,6,administrative,boundary
+R111014,Windsor and Maidenhead,6,administrative,boundary
+R114311,Wokingham,6,administrative,boundary
+R57581,Worcestershire,6,administrative,boundary
+R137981,Wrexham,6,administrative,boundary
+R134353,York,6,administrative,boundary

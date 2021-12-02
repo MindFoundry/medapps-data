@@ -1,0 +1,27 @@
+schema: '2.0'
+stages:
+  scotland-imd-download:
+    cmd: bash scotland-imd-download.sh
+    deps:
+    - path: scotland-imd-download.sh
+      md5: 237f4c027dcda6e222d44caac6763768
+      size: 499
+    outs:
+    - path: scotland-imd/
+      md5: b8ebca05ad1cb460b20ea2fbdcb9282c.dir
+      size: 78265840
+      nfiles: 9
+  scotland-imd:
+    cmd: python scotland-imd.py
+    deps:
+    - path: scotland-imd
+      md5: b8ebca05ad1cb460b20ea2fbdcb9282c.dir
+      size: 78265840
+      nfiles: 9
+    - path: scotland-imd.py
+      md5: 99b5c623aba5ec3888d13a2f6e355b90
+      size: 992
+    outs:
+    - path: scotland-imd.geojson
+      md5: ea01dfca943f0625e422fc2efc0724f9
+      size: 149157505

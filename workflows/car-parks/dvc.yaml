@@ -1,0 +1,7 @@
+stages:
+  osm-car-parks:
+    cmd: python osm-car-parks.py
+    deps:
+      - osm-car-parks.py
+    outs:
+      - car-parks.geojson

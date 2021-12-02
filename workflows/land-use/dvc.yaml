@@ -1,0 +1,21 @@
+stages:
+  os-openmap-local:
+    cmd: bash os-openmap-local.sh
+    deps:
+      - os-openmap-local.sh
+    outs:
+      - os-openmap-local.zip
+  buildings:
+    cmd: python buildings.py
+    deps:
+      - buildings.py
+      - os-openmap-local.zip
+    outs:
+      - buildings.gpkg
+  roads:
+    cmd: python roads.py
+    deps:
+      - roads.py
+      - os-openmap-local.zip
+    outs:
+      - roads.gpkg

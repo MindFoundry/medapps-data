@@ -1,0 +1,9 @@
+stages:
+  wales-imd:
+    cmd: python wales-imd.py
+    deps:
+      - wales-imd.py
+      - wales-imd/wales-imd-raw.csv
+      - ../../boundaries-lsoa/lsoa-boundaries.geojson
+    outs:
+      - wales-imd.geojson

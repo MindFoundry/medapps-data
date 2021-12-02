@@ -1,0 +1,4 @@
+outs:
+- md5: 6e45e905b07247f51a531d30d9d1dfce
+  size: 569777
+  path: wales-imd-raw.csv

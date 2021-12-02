@@ -1,0 +1,14 @@
+stages:
+  ncr-data-download:
+    cmd: bash ncr-data-download.sh
+    deps:
+      - ncr-data-download.sh
+    outs:
+      - ncr-data.csv
+  charge-points:
+    cmd: python charge-points.py
+    deps:
+      - charge-points.py
+      - ncr-data.csv
+    outs:
+      - charge-points.geojson

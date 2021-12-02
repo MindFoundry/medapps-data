@@ -1,0 +1,22 @@
+
+fiona
+geopandas
+osmnx
+pandas
+pandas-stubs
+pyarrow  # used by geopandas for writing to parquet
+pygeos  # used by geopandas for faster spatial index
+requests
+tqdm
+odfpy
+chardet
+
+
+# dev tools
+black <=21.7b0   # Higher versions require pathspec>=0.9.0, which conflicts with dvc<=2.7.4 which requires pathspec <0.9.0
+                 # We can upgrade black once dvc upgrades pathspec - see https://github.com/iterative/dvc/pull/6689
+dvc[s3]
+isort
+mypy
+pip-tools
+pylint

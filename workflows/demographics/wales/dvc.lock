@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  wales-imd:
+    cmd: python wales-imd.py
+    deps:
+    - path: ../../boundaries-lsoa/lsoa-boundaries.geojson
+      md5: 5efc8840e57ac6294bb6cc106c54a858
+      size: 99766557
+    - path: wales-imd.py
+      md5: 6d0d9fcc089cbb878588a85ec18c31ff
+      size: 1536
+    - path: wales-imd/wales-imd-raw.csv
+      md5: 6e45e905b07247f51a531d30d9d1dfce
+      size: 569777
+    outs:
+    - path: wales-imd.geojson
+      md5: 772b55314f777c6fd9118eb732dfc488
+      size: 7552856

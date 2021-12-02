@@ -1,0 +1,15 @@
+stages:
+  ev-registration-data-download:
+    cmd: bash ev-registration-data-download.sh
+    deps:
+      - ev-registration-data-download.sh
+    outs:
+      - veh0134.ods
+  ev-registrations:
+    cmd: python ev-registrations.py
+    deps:
+      - ev-registrations.py
+      - veh0134.ods
+      - ../boundaries-postcode-district/uk-postcode-districts.geojson
+    outs:
+      - ev-registrations.geojson

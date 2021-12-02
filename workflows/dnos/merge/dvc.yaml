@@ -1,0 +1,9 @@
+stages:
+  merge-substations:
+    cmd: python merge-dnos-data.py
+    deps:
+      - merge-dnos-data.py
+      - ../dno-wpd/wpd-primary-substations.geojson
+      - ../dno-ukpn/ukpn-primary-substations.geojson
+    outs:
+      - dnos-primary-substations.geojson

@@ -1,0 +1,14 @@
+stages:
+  postcode-district-data-download:
+    cmd: bash postcode-data-download.sh
+    deps:
+      - postcode-data-download.sh
+    outs:
+      - PostcodeDistricts.kml
+  postcode-districts:
+    cmd: python postcode-district-boundaries.py
+    deps:
+      - postcode-district-boundaries.py
+      - PostcodeDistricts.kml
+    outs:
+      - uk-postcode-districts.geojson

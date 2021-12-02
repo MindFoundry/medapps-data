@@ -1,0 +1,14 @@
+stages:
+  scotland-imd-download:
+    cmd: bash scotland-imd-download.sh
+    deps:
+      - scotland-imd-download.sh
+    outs:
+      - scotland-imd/
+  scotland-imd:
+    cmd: python scotland-imd.py
+    deps:
+      - scotland-imd.py
+      - scotland-imd
+    outs:
+      - scotland-imd.geojson

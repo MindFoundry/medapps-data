@@ -1,0 +1,7 @@
+stages:
+  osm-bus-stops-and-stations:
+    cmd: python osm-bus-stops-and-stations.py
+    deps:
+      - osm-bus-stops-and-stations.py
+    outs:
+      - bus-stops-and-stations.geojson
