@@ -29,7 +29,7 @@ County boundary data are derived from OpenStreetMap (see [license](https://www.o
 ### LSOA Boundaries (`boundaries-lsoa`)
 Bounding polygons for lower layer super output areas. LSOAs are standardised areas developed for the census but used for reporting a lot of statistical data. LSOAs have an average population of 1500 and cover an average of 650 households.
 
-LSOA boundary data are provided by the [Office for National Statistics](https://geoportal.statistics.gov.uk/datasets/ons::lower-layer-super-output-areas-december-2011-boundaries-generalised-clipped-bgc-ew-v3/about) 
+LSOA boundary data are provided by the [Office for National Statistics](https://geoportal.statistics.gov.uk/datasets/ons::lower-layer-super-output-areas-december-2011-boundaries-generalised-clipped-bgc-ew-v3/about). These data are available under the [OGL Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 ### Postcode District Boundaries (`boundaries-postcode-district`)
 Bounding polygons for postcode districts (e.g., BB3, BB4, etc.)
@@ -52,7 +52,7 @@ Car park data are derived from OpenStreetMap (see [license](https://www.openstre
 ### EV Charge Points (`charge-points`)
 Locations of publicly accessible electric vehicle charge points with additional attributes including charger speed.
 
-EV charge point data are derived from the National Chargepoint Registry (NCR). This data are available under the [OGL Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+EV charge point data are derived from the National Chargepoint Registry (NCR). These data are available under the [OGL Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 
 ### Demographics (`demographics`)
@@ -70,7 +70,7 @@ Data from UKPN is available under a [CC BY 4.0 License](https://creativecommons.
 ### Electric Vehicle Registrations (`ev-registrations`)
 Counts of the total number of registered Ultra-low emission vehicles (ULEVs), broken down by postcode district (e.g., OX1). ULEVs includes both fully electric vehicles and plug-in hybrid vehicles.
 
-EV Registration data are provided by the UK Department for Transport and the Driver and Vehicle Licensing Agency. This data are available under the [OGL Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+EV Registration data are provided by the UK Department for Transport and the Driver and Vehicle Licensing Agency. These data are available under the [OGL Licence v3](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 
 
 ### Roads and Buildings (`land-use`)
